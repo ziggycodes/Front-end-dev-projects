@@ -11,7 +11,7 @@
     height: 100vh;
 }
 
-#navigation section
+/*navigation styling*/
 
 .nav_section{
     padding-top: 1.2%;
@@ -25,7 +25,10 @@
     color: rgb(253, 222, 176); 
 }
 
-
+a{
+    text-decoration: none;
+    color: white;
+}
 
 .nav_opts{
     width: 60%;
@@ -36,6 +39,21 @@ ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: rgb(253, 222, 176); 
+    font-size: 17px;
+    border-width: 50px;
+    border: 1px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: ease-in-out;
+    transition: 0.8s;
+}
+li:active{
+    color: black;
 }
 
 .nav_actions{
@@ -47,7 +65,7 @@ ul{
 }
 
 .login{
-    padding-right: 10%;
+    margin-right: 10%;
 }
 
 .divisor{
@@ -57,8 +75,21 @@ ul{
     padding-top: 19px;
 }
 
-.contact_btn{
-    padding-left: 10%;
+button{
+    margin-left: 10%;
     width: 99px;
-
+    background-color: rgb(38, 1, 65);
+    border: 0;
+    font-size: 16px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(253, 222, 176); 
+    font-size: 17px;
+    border-width: 100px;
+    border: 1px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: ease-in-out;
+    transition: 0.8s;
 }
